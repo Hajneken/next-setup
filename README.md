@@ -4,6 +4,6 @@ Boilerplate for Next projects with configured static exporting, Material UI and 
 
 ## Get Started
 
-1. `cd next-setup`
+1. `cd src`
 2. `yarn`
 3. `yarn dev`
