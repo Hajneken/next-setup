@@ -29,6 +29,10 @@ const nextConfig = (phase, { defaultConfig }) => {
     images: {
       loader: "custom",
     },
+    // important for global styles to be loaded in production
+    sassOptions: {
+        includePaths: [path.join(__dirname, "styles")],
+      },
     // TODO always Change for production build
     // basePath: "/~hynekz20/fc",
   };
